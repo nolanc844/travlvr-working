@@ -41,14 +41,16 @@ function nextBeach3() {
     beachCommands3.setAttribute("visible", "false")
 }
 
-// function nextBeach4() {
-//     var changeBeach4 = document.getElementById("background")
-//     changeBeach4.setAttribute("src", "#isla")
-//     var beachCommands5 = document.getElementById("beach5")
-//     beachCommands5.setAttribute("visible", "true")
-//     var beachCommands4 = document.getElementById("beach4")
-//     beachCommands4.setAttribute("visible", "false")
-// }
+function nextBeach4() {
+    var changeBeach4 = document.getElementById("background")
+    changeBeach4.setAttribute("src", "#isla")
+    changeBeach4.setAttribute("color", "");
+
+    var beachCommands5 = document.getElementById("beach5")
+    beachCommands5.setAttribute("visible", "true")
+    var beachCommands4 = document.getElementById("beach4")
+    beachCommands4.setAttribute("visible", "false")
+}
 
 function changeToMonuments() {
     var monumentChange = document.getElementById("background");

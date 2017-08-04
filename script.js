@@ -1,5 +1,6 @@
 function changeToBeach1() {
     var beachChange = document.getElementById("background");
+    beachChange.setAttribute("color", "");
     beachChange.setAttribute("src", "#isla");
     var homeToPlace = document.getElementById("homePage")
     homeToPlace.setAttribute("visible", "false")
@@ -10,6 +11,8 @@ function changeToBeach1() {
 function nextBeach1() {
     var changebeach1 = document.getElementById("background");
     changebeach1.setAttribute("src", "#hanola")
+    changebeach1.setAttribute("color", "");
+
     var beachCommands2 = document.getElementById("beach2")
     beachCommands2.setAttribute("visible", "true")
     var beachCommands1 = document.getElementById("beach1")
@@ -19,6 +22,8 @@ function nextBeach1() {
 function nextBeach2() {
     var changebeach2 = document.getElementById("background");
     changebeach2.setAttribute("src", "#rockaway")
+    changebeach2.setAttribute("color", "");
+
     var beachCommands3 = document.getElementById("beach3")
     beachCommands3.setAttribute("visible", "true")
     var beachCommands2 = document.getElementById("beach2")
@@ -28,6 +33,8 @@ function nextBeach2() {
 function nextBeach3() {
     var changeBeach3 = document.getElementById("background")
     changeBeach3.setAttribute("src", "#miami")
+    changeBeach3.setAttribute("color", "");
+
     var beachCommands4 = document.getElementById("beach4")
     beachCommands4.setAttribute("visible", "true")
     var beachCommands3 = document.getElementById("beach3")
@@ -46,6 +53,7 @@ function nextBeach3() {
 function changeToMonuments() {
     var monumentChange = document.getElementById("background");
     monumentChange.setAttribute("src", "#petra");
+    monumentChange.setAttribute("color", "");
     var homeToPlace = document.getElementById("homePage")
     homeToPlace.setAttribute("visible", "false")
     var monumentCommands1 = document.getElementById("monument1")
@@ -55,6 +63,7 @@ function changeToMonuments() {
 function nextMonument1() {
     var changeMonument1 = document.getElementById("background");
     changeMonument1.setAttribute("src", "#911");
+    changeMonument1.setAttribute("color", "")
     var monumentCommands2= document.getElementById("monument2")
     monumentCommands2.setAttribute("visible", "true")
     var monumentCommands1 = document.getElementById("monument1")
